@@ -1,0 +1,10 @@
+.mostrarstock{
+    display: flex;
+    flex-direction: row;
+}
+.box-provisorio{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
