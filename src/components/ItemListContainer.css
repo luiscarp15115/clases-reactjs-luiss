@@ -1,3 +1,9 @@
+.catalogo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
 .titulo-catalogo{
     font-size: 25px;
     font-weight: 900;

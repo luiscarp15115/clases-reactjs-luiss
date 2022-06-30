@@ -1,6 +1,6 @@
 import './CartWidget.css';
 import carritoimg from './carrito.png';
-function Carrito() {
+function CartWidget() {
     return (
         <div className='img-carrito'>
             <img src={carritoimg} className="carrito-img" />
@@ -8,4 +8,4 @@ function Carrito() {
     );
   }
 
-export default Carrito;
+export default CartWidget;

@@ -1,5 +1,5 @@
 import './Navbar.css';
-
+import Carrito from './CartWidget.js';
 function Navbar() {
     return (
         <header>
@@ -12,6 +12,9 @@ function Navbar() {
                     <a src="#" className='link'>Catalogo</a>
                     <a src="#" className='link'>Preguntas Frecuentes</a>
                     <a src="#" className='link'>Contactanos</a>
+                </div>
+                <div className='carrito'>
+                    <Carrito />
                 </div>
             </div>
         </header>

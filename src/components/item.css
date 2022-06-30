@@ -1,0 +1,15 @@
+.producto{
+    width: 20rem; 
+    margin: 1rem 1rem;
+    border: 1px black solid;
+    background-color: rgba(245, 236, 224, 0.726);
+}
+.titulo-prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px black solid;
+    margin: 0;
+    height: 3rem;
+    background-color: rgba(252, 233, 208, 0.726);
+}
