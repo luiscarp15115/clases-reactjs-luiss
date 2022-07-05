@@ -4,6 +4,7 @@
         "nombre":"A10",
         "marca":"Samsung",
         "tipo":"Celular",
+        "descripcion":"assdsadasdsad",
         "precio":10000,
         "stock":3,
         "img":""
@@ -13,6 +14,7 @@
         "nombre":"A20",
         "marca":"Samsung",
         "tipo":"Celular",
+        "descripcion":"assdsadasdsad2",
         "precio":20000,
         "stock":3,
         "img":""
@@ -22,6 +24,7 @@
         "nombre":"A30",
         "marca":"Samsung",
         "tipo":"Celular",
+        "descripcion":"assdsadasdsad3",
         "precio":30000,
         "stock":3,
         "img":""
@@ -31,6 +34,7 @@
         "nombre":"A50",
         "marca":"Samsung",
         "tipo":"Celular",
+        "descripcion":"assdsadasdsad4",
         "precio":40000,
         "stock":3,
         "img":""
@@ -40,6 +44,7 @@
         "nombre":"A70",
         "marca":"Samsung",
         "tipo":"Celular",
+        "descripcion":"assdsadasdsad5",
         "precio":40000,
         "stock":3,
         "img":""
@@ -49,6 +54,7 @@
         "nombre":"K22",
         "marca":"LG",
         "tipo":"Celular",
+        "descripcion":"assdsadasdsad6",
         "precio":40000,
         "stock":3,
         "img":""
@@ -58,6 +64,7 @@
         "nombre":"K52",
         "marca":"LG",
         "tipo":"Celular",
+        "descripcion":"assdsadasdsad7",
         "precio":40000,
         "stock":3,
         "img":""
@@ -67,6 +74,7 @@
         "nombre":"K52",
         "marca":"LG",
         "tipo":"Celular",
+        "descripcion":"assdsadasdsad8",
         "precio":40000,
         "stock":3,
         "img":""

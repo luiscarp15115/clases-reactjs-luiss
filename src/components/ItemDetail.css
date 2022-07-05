@@ -1,0 +1,22 @@
+.detail{
+    display: flex;
+    justify-content: center;
+}
+.detail-gen{
+    background-color: antiquewhite;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+.img-detail,.title-detail,.description-detail,.price-detail {
+    border: 1px black solid;
+    margin: 0;
+    padding: 1rem;
+}
+.img-detail{
+    background-color: whitesmoke;
+}
+
+.price-detail{
+    background-color: rgb(235, 215, 190);
+}
