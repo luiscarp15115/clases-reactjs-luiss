@@ -6,6 +6,7 @@ function ItemList(props) {
             <div className='productos'>
                 {props.productos.map((producto) => (
                 <Item
+                prodId={producto.id}
                 prodNombre={producto.nombre} 
                 prodMarca={producto.marca} 
                 prodCategoria={producto.tipo} 

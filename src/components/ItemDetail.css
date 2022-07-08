@@ -1,6 +1,7 @@
 .detail{
     display: flex;
     justify-content: center;
+    padding: 2rem 0;
 }
 .detail-gen{
     background-color: antiquewhite;
@@ -15,6 +16,7 @@
 }
 .img-detail{
     background-color: whitesmoke;
+    width: auto;
 }
 
 .price-detail{

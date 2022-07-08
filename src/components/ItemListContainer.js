@@ -12,7 +12,7 @@ function ItemListContainer() {
             
     }
     }, [])
-
+console.log(productosFetch)
 
     return (
         <>

@@ -1,22 +1,21 @@
 import './Navbar.css';
 import Carrito from './CartWidget.js';
+import {Link} from 'react-router-dom';
 function Navbar() {
     return (
-        <header>
-            <div className='navbar'>
+        <header className='header-grid'>
                 <div className='titulo'>
-                    <h1> Tecno Tiendita </h1>
+                <Link to='/' className='titulo-name'>Tecno Tiendita</Link>
                 </div>
                 <div className='navbar-links'>
-                    <a src="#" className='link'>Home</a>
-                    <a src="#" className='link'>Catalogo</a>
+                    <Link to='/Home'className='link'>Home</Link>
+                    <Link to='/category' className='link'>Catalogo</Link>
                     <a src="#" className='link'>Preguntas Frecuentes</a>
                     <a src="#" className='link'>Contactanos</a>
                 </div>
                 <div className='carrito'>
                     <Carrito />
                 </div>
-            </div>
         </header>
     );
   }

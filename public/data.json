@@ -4,80 +4,80 @@
         "nombre":"A10",
         "marca":"Samsung",
         "tipo":"Celular",
-        "descripcion":"assdsadasdsad",
+        "descripcion":"Una pantalla HD+ de 6.2 pulgadas en un teléfono que te encantará mirar. Ya sea que te gusten las comedias de situación o los videojuegos de rol multijugador masivos en línea, la pantalla Infinity-V Display del Samsung Galaxy A10 cambia la forma en la que los experimentas, ya que te coloca directamente en la acción. Descubre hasta dónde te lleva la experiencia con esta pantalla de corte en V.",
         "precio":10000,
         "stock":3,
-        "img":""
+        "img":"https://ar.celulares.com/fotos/samsung-galaxy-a10-81519-g-alt.jpg"
     },
     {
         "id":2,
         "nombre":"A20",
         "marca":"Samsung",
         "tipo":"Celular",
-        "descripcion":"assdsadasdsad2",
+        "descripcion":"Gracias a la pantalla Infinity-V HD, con 5,8” de extremo a extremo, verás todo tu contenido al detalle. Es la mayor pantalla con relación de aspecto 19,5:9 que hemos creado nunca. Adéntrate en tus juegos y disfruta de tus series favoritas.",
         "precio":20000,
         "stock":3,
-        "img":""
+        "img":"https://http2.mlstatic.com/D_NQ_NP_995187-MLA31821943466_082019-O.jpg"
     },
     {
         "id":3,
         "nombre":"A30",
         "marca":"Samsung",
         "tipo":"Celular",
-        "descripcion":"assdsadasdsad3",
+        "descripcion":"Las 6,4 pulgadas completas de extremo a extremo de la pantalla Infinity-U Display significa que podrás sumergirte en tus juegos y videos favoritos. Con la pantalla sAMOLED FHD+ casi sin biseles, el Samsung Galaxy A30 está rediseñando el entretenimiento para darte más de lo que te encanta.",
         "precio":30000,
         "stock":3,
-        "img":""
+        "img":"https://http2.mlstatic.com/D_NQ_NP_757343-MLA31838701605_082019-O.jpg"
     },
     {
         "id":4,
         "nombre":"A50",
         "marca":"Samsung",
         "tipo":"Celular",
-        "descripcion":"assdsadasdsad4",
+        "descripcion":"Observa de cerca lo que realmente te importa en la pantalla Infinity-U de 6,4 in del Samsung Galaxy A50. La pantalla cubre el teléfono de un extremo al otro, por lo que casi no incluye biseles. Además, con la resolución FHD+ y los colores de la pantalla sAMOLED, puedes enfocarte en tus transmisiones y blogs favoritos.",
         "precio":40000,
         "stock":3,
-        "img":""
+        "img":"https://http2.mlstatic.com/D_NQ_NP_914676-MLA31922400061_082019-O.jpg"
     },
     {
         "id":5,
         "nombre":"A70",
         "marca":"Samsung",
         "tipo":"Celular",
-        "descripcion":"assdsadasdsad5",
+        "descripcion":"La pantalla maximizada de 6.7 pulgadas del Samsung Galaxy A70 te acerca aún más a las cosas que te gustan, ya que todo cobra vida con la pantalla Infinity-U Display Super AMOLED FHD+. Ya sea que estés transmitiendo contenido o viendo tus programas favoritos, la relación de aspecto expansiva de 20:9 es una experiencia visual que te lleva a descubrir mundos nuevos.",
         "precio":40000,
         "stock":3,
-        "img":""
+        "img":"https://http2.mlstatic.com/D_NQ_NP_746335-MLA31838804622_082019-O.jpg"
     },
     {
         "id":6,
         "nombre":"K22",
         "marca":"LG",
         "tipo":"Celular",
-        "descripcion":"assdsadasdsad6",
+        "descripcion":"Una gran pantalla para ver todo. Hace videollamadas con todos en pantalla completa. Reproducí películas y series. Jugá. Todo esto en una pantalla de 6.2 pulgadas, formato 19:9 y calidad HD+",
         "precio":40000,
         "stock":3,
-        "img":""
+        "img":"https://www.cetrogar.com.ar/media/catalog/product/t/e/te2722.jpg?width=500&height=500&canvas=500,500&quality=80&bg-color=255,255,255&fit=bounds"
     },
     {
         "id":7,
         "nombre":"K52",
         "marca":"LG",
         "tipo":"Celular",
-        "descripcion":"assdsadasdsad7",
+        "descripcion":"Belleza más allá de la apariencia. Los patrones visuales dinámicos se unen para lograr un acabado mate excepcional que te encantará ver y una textura que te encantará tocar, incluso a prueba de huellas dactilares.",
         "precio":40000,
         "stock":3,
-        "img":""
+        "img":"https://www.cetrogar.com.ar/media/catalog/product/t/e/te2765-1.jpg?width=500&height=500&canvas=500,500&quality=80&bg-color=255,255,255&fit=bounds"
     },
     {
         "id":8,
         "nombre":"K52",
         "marca":"LG",
         "tipo":"Celular",
-        "descripcion":"assdsadasdsad8",
+        "descripcion":"Belleza más allá de la apariencia. Los patrones visuales dinámicos se unen para lograr un acabado mate excepcional que te encantará ver y una textura que te encantará tocar, incluso a prueba de huellas dactilares.",
         "precio":40000,
         "stock":3,
-        "img":""
+        "img":"https://www.cetrogar.com.ar/media/catalog/product/t/e/te2765-1.jpg?width=500&height=500&canvas=500,500&quality=80&bg-color=255,255,255&fit=bounds"
     }
     
 ]
