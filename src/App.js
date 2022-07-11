@@ -1,10 +1,12 @@
 import './App.css';
-import Navbar from './components/Navbar.js';
-import Catalogo from './components/ItemListContainer.js';
-import ItemDetailContainer from './components/ItemDetailContainer';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home.js';
+import Navbar from './components/Navbar.js';
+import ItemDetailContainer from './components/ItemDetailContainer';
 import ItemListContainer from './components/ItemListContainer.js';
+import Footer from './components/Footer';
+import CartDetail from './components/CartDetail';
+
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Route path='/Home' element={<Home />} ></Route>
         <Route path='/category' element={<ItemListContainer />} ></Route>
         <Route path='/item/:itemId' element={<ItemDetailContainer />}></Route>
+        <Route path='/cart' element={<CartDetail/>}></Route>
       </Routes> 
+      <Footer />
     </div>
   );
 }

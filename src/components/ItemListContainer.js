@@ -1,7 +1,7 @@
 import './ItemListContainer.css'
 import {useEffect, useState } from 'react';
 import ItemList from './ItemList.js';
-import ItemDetailContainer from './ItemDetailContainer';
+
 function ItemListContainer() {
     const [productosFetch, setProductos] = useState([])
 
@@ -12,10 +12,9 @@ function ItemListContainer() {
             
     }
     }, [])
-console.log(productosFetch)
 
     return (
-        <>
+        <div className='catalogo-main'>
             <div className=''>
                 <h2 className='titulo-catalogo'>Mira nuestras ofertas !!!</h2>
                 <p className='descripcion'>Productos en ofetas</p>
@@ -24,7 +23,7 @@ console.log(productosFetch)
                 <ItemList className='catalogo' productos={productosFetch} />
             </div>
             
-        </>
+        </div>
     );
 }
 

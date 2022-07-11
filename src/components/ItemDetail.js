@@ -1,16 +1,24 @@
+import Itemcount from './ItemCount.js';
 import './ItemDetail.css';
-const ItemDetail = ({props}) =>{
-    
-    return(
-        <div className='detail'>
-            <div className='detail-gen'>
+
+const ItemDetail = ({ props }) => {
+
+    const onAdd = (prodcarrito) =>{
+        console.log({prodcarrito}`Agregado al carrito`)
+    }
+
+    return (
+        <div className='detail' >
+            <div className='detail-gen detail-grid'>
                 <img src={props.img} className="img-detail" />
-                <h2 className='title-detail'>{props.categoria} {props.nombre}</h2>
-                <p className='description-detail'>{props.descripcion}</p>
-                <p className='price-detail'>${props.precio}</p>
-            
+                <div className='detail-description'>
+                    <h2 className='title-detail'>{props.tipo} {props.nombre}</h2>
+                    <p className='description-detail'>Descripcion: {props.descripcion}</p>
+                    <p className='price-detail'>Precio: ${props.precio}</p>
+                        <Itemcount stock={props.stock} inicial={0} onAdd={onAdd}/>
+                </div>
             </div>
-            </div>
+        </div>
     );
 }
 

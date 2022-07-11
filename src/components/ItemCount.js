@@ -1,15 +1,16 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import './ItemCount.css';
 
-function Itemcount({ stock, inicial }) {
+function Itemcount({ stock, inicial, onAdd }) {
     const [num, setNum] = useState(inicial)
     const agregar = () => {
-        if (num != stock) {
+        if (num < stock) {
             setNum(num + 1)
         }
     }
     const restar = () => {
-        if (num > 0) {
+        if (num > inicial) {
             setNum(num - 1)
         }
         else {
@@ -17,6 +18,7 @@ function Itemcount({ stock, inicial }) {
         }
 
     }
+
     return (
         <div className="box-provisorio">
             <p>Limite de stock {stock}</p>
@@ -25,6 +27,7 @@ function Itemcount({ stock, inicial }) {
                 <p>{num}</p>
                 <button onClick={agregar}>+</button>
             </div>
+            <Link to='/cart'onClick={() => onAdd(num)}>Agregar al carrito</Link>
         </div>
     )
 }
