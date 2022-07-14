@@ -1,10 +1,12 @@
 import Itemcount from './ItemCount.js';
 import './ItemDetail.css';
+import {useCartContext} from '../store/CartContext'
+export const ItemDetail = ({ props }) => {
 
-const ItemDetail = ({ props }) => {
+    const {agregarCarrito} = useCartContext()
 
-    const onAdd = (prodcarrito) =>{
-        console.log({prodcarrito}`Agregado al carrito`)
+    const onAdd = (cantidad) =>{
+        agregarCarrito(props, cantidad)
     }
 
     return (

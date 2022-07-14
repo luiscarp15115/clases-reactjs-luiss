@@ -9,7 +9,8 @@
     
 }
 .img-detail{
-    width: 100%;
+    width: 350px;
+    height: 420px;
 }
 .detail-description{
     grid-row: 1/5;
