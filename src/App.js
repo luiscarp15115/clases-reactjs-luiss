@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/Navbar.js';
-import Catalogo from './components/ItemListContainer.js';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home.js';
@@ -15,7 +14,8 @@ function App() {
         <Route path='/Home' element={<Home />} ></Route>
         <Route path='/category' element={<ItemListContainer />} ></Route>
         <Route path='/item/:itemId' element={<ItemDetailContainer />}></Route>
-      </Routes> 
+        <Route path='/category/:catId' element={<ItemListContainer />}></Route>
+      </Routes>
     </div>
   );
 }

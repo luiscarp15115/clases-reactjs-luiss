@@ -12,10 +12,8 @@ function ItemDetailContainer() {
     useEffect(() => {
         fetch('../data.json')
         .then((resp) => resp.json())
-        .then((data) => setDetail(data.find(producto => producto.id === parseInt(itemId)))
-        )
-    }, [])
-    console.log(detail)
+        .then((data) => setDetail(data.find(producto => producto.id === parseInt(itemId))))
+    }, [itemId])
 
     return (
         <>

@@ -51,33 +51,33 @@
     },
     {
         "id":6,
-        "nombre":"K22",
+        "nombre":"LG Ultra HD Smart TV 49'",
         "marca":"LG",
-        "tipo":"Celular",
-        "descripcion":"Una gran pantalla para ver todo. Hace videollamadas con todos en pantalla completa. Reproducí películas y series. Jugá. Todo esto en una pantalla de 6.2 pulgadas, formato 19:9 y calidad HD+",
+        "tipo":"Televisor",
+        "descripcion":"Vive imágenes 4K más reales, con finos detalles y colores más vivos, a través de las pantallas IPS que ofrecen cuatro veces más resolución que los Fulll HD.",
         "precio":40000,
         "stock":3,
-        "img":"https://www.cetrogar.com.ar/media/catalog/product/t/e/te2722.jpg?width=500&height=500&canvas=500,500&quality=80&bg-color=255,255,255&fit=bounds"
+        "img":"https://www.lg.com/ar/images/televisores/md06198516/gallery/DES_1_N.jpg"
     },
     {
         "id":7,
-        "nombre":"K52",
+        "nombre":"LG Ultra HD Smart TV 49'",
         "marca":"LG",
-        "tipo":"Celular",
-        "descripcion":"Belleza más allá de la apariencia. Los patrones visuales dinámicos se unen para lograr un acabado mate excepcional que te encantará ver y una textura que te encantará tocar, incluso a prueba de huellas dactilares.",
+        "tipo":"Televisor",
+        "descripcion":"Vive imágenes 4K más reales, con finos detalles y colores más vivos, a través de las pantallas IPS que ofrecen cuatro veces más resolución que los Fulll HD.",
         "precio":40000,
-        "stock":3,
-        "img":"https://www.cetrogar.com.ar/media/catalog/product/t/e/te2765-1.jpg?width=500&height=500&canvas=500,500&quality=80&bg-color=255,255,255&fit=bounds"
+        "stock":8,
+        "img":"https://www.lg.com/ar/images/televisores/md06198516/gallery/DES_1_N.jpg"
     },
     {
         "id":8,
-        "nombre":"K52",
+        "nombre":"LG Ultra HD Smart TV 49'",
         "marca":"LG",
-        "tipo":"Celular",
-        "descripcion":"Belleza más allá de la apariencia. Los patrones visuales dinámicos se unen para lograr un acabado mate excepcional que te encantará ver y una textura que te encantará tocar, incluso a prueba de huellas dactilares.",
+        "tipo":"Televisor",
+        "descripcion":"Vive imágenes 4K más reales, con finos detalles y colores más vivos, a través de las pantallas IPS que ofrecen cuatro veces más resolución que los Fulll HD.",
         "precio":40000,
-        "stock":3,
-        "img":"https://www.cetrogar.com.ar/media/catalog/product/t/e/te2765-1.jpg?width=500&height=500&canvas=500,500&quality=80&bg-color=255,255,255&fit=bounds"
+        "stock":5,
+        "img":"https://www.lg.com/ar/images/televisores/md06198516/gallery/DES_1_N.jpg"
     }
     
 ]
