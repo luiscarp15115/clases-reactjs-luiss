@@ -21,6 +21,7 @@ return (
                 carrito.map(producto => <CartDetail producto={producto}></CartDetail>)
             }
             <p>Total: ${totalcart}</p>
+            <button>Terminar Compra</button>
             <button onClick={()=>borrarCarrito()}>Borrar Carrito</button>
         </div>
         )
