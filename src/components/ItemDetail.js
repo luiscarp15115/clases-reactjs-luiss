@@ -1,8 +1,8 @@
 import Itemcount from './ItemCount.js';
 import './ItemDetail.css';
 import {useCartContext} from '../store/CartContext'
-export const ItemDetail = ({ props }) => {
 
+export const ItemDetail = ({ props }) => {
     const {agregarCarrito} = useCartContext()
 
     const onAdd = (cantidad) =>{

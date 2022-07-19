@@ -14,7 +14,9 @@ function Navbar() {
                     <a src="#" className='link'>Contactanos</a>
                 </div>
                 <div className='carrito'>
-                    <Carrito />
+                    <Link to='/cart'>
+                        <Carrito />
+                    </Link>
                 </div>
         </header>
     );
