@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
 import ItemDetail from "./ItemDetail.js";
 import { useParams } from "react-router-dom";
-import {getFirestore, doc, getDocs, collection, query, where} from 'firebase/firestore'
+import {getFirestore, doc, getDoc} from 'firebase/firestore'
 
 
 
 function ItemDetailContainer() {
-    const {itemId} = useParams()
+    
     const [detail, setDetail] = useState([]);
+    const {itemId} = useParams()
     /*
     useEffect(() => {
         fetch('../data.json')
@@ -18,14 +19,11 @@ function ItemDetailContainer() {
     */
     useEffect(() => {
         const db = getFirestore();
-
-        const q= query(collection(db,"data"), where('id','==',parseInt(itemId)))
-        
-        getDocs(q).then((product) =>{
-            
-                setDetail(product.docs.map((doc) => doc.data()))
-        })
+        const q= doc(db,'data',itemId)
+        getDoc(q)
+            .then(product =>setDetail({id:product.id, ...product.data()}))
     },[])
+
     console.log(detail)
     return (
         <>

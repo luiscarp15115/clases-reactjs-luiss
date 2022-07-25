@@ -21,7 +21,7 @@ function ItemListContainer() {
         const producRef= collection(db,"data")
         
         getDocs(producRef).then((product) =>{
-                setProductos(product.docs.map((doc) => doc.data()))
+                setProductos(product.docs.map(doc=>({id:doc.id, ...doc.data()})))
         })
     },[])
 
