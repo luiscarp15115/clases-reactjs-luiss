@@ -14,7 +14,6 @@ const CartProvider = ({children}) =>{
         setCarrito(newCarrito)
     }
 
-    console.log(carrito)
 
 
     const borrarCarrito = () => setCarrito([])
