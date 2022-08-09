@@ -4,3 +4,10 @@
     align-items: center;
     padding-top: 2rem;
 }
+
+.carrito-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

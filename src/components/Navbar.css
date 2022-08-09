@@ -7,7 +7,7 @@
     grid-template-columns: 20% 70% 10%;
     grid-template-rows: auto;
     width: 100%;
-    background-color: antiquewhite;
+    background-color:#424242;
 }
 .navbar{
     width: 100%;
@@ -19,11 +19,12 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+
 }
 
 .titulo-name{
     text-decoration: none;
-    color: black;
+    color: rgba(255, 255, 255, 0.603);
     font-size: 1.3rem;
 }
 
@@ -40,7 +41,8 @@
     padding: 5px 1rem;
     border: 1px black solid;
     border-radius: 4px;
-    background-color: rgb(241, 241, 241);
+    background-color: #6d6d6d;
+    color: rgba(255, 255, 255, 0.603);
 }
 
 .carrito{

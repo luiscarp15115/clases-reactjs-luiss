@@ -1,7 +1,14 @@
+.carrito-main{
+    width: 50rem;
+}
+
 .item-cart{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.item-title-cart{
+    align-items: initial;
 }

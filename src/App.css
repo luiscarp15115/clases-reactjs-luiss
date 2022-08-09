@@ -1,6 +1,6 @@
 .App {
   display: grid;
-  grid-template-rows: 10% auto 10%;
+  grid-template-rows: 80px auto 10%;
   text-align: center;
   height: 100vh;
 }

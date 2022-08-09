@@ -13,7 +13,7 @@ const Cart = () => {
             phone:"1231231",
             email:"asd@gmail.com"
         },
-        item:carrito.map(producto => ({id: producto.id, nombre: producto.nombre, precio: producto.precio, cantidad: producto.cantidad})),
+        item:carrito.map(producto => ({id: producto.id, nombre: producto.nombre, precio: producto.precio,precioOferta: producto.preciorebajado, cantidad: producto.cantidad})),
         total:totalcart
     }
 
@@ -22,6 +22,7 @@ const Cart = () => {
         const q= collection(db,'order')
         addDoc(q, order)
             .then(({id}) => console.log(order))
+        borrarCarrito()
     }
     if(carrito.length === 0 ) {
         return(
@@ -35,9 +36,11 @@ const Cart = () => {
 return (
         <div className='cart'>
             <h1>Carrito</h1>
+            <div className='carrito-main'>
             {
                 carrito.map(producto => <CartDetail producto={producto}></CartDetail>)
             }
+            </div>
             <p>Total: ${totalcart}</p>
             <button onClick={orderButton}>Terminar compra</button>
             <button onClick={()=>borrarCarrito()}>Borrar Carrito</button>

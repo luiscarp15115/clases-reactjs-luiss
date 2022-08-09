@@ -10,8 +10,8 @@ function Navbar() {
                 <div className='navbar-links'>
                     <Link to='/Home'className='link'>Home</Link>
                     <Link to='/category' className='link'>Catalogo</Link>
-                    <a src="#" className='link'>Preguntas Frecuentes</a>
-                    <a src="#" className='link'>Contactanos</a>
+                    <Link to='/category/Celulares' className='link'>Celulares</Link>
+                    <Link to='/category/Televisores' className='link'>Televisores</Link>
                 </div>
                 <div className='carrito'>
                     <Link to='/cart'>

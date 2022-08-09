@@ -9,14 +9,8 @@ function ItemDetailContainer() {
     
     const [detail, setDetail] = useState([]);
     const {itemId} = useParams()
-    /*
-    useEffect(() => {
-        fetch('../data.json')
-        .then((resp) => resp.json())
-        .then((data) => setDetail(data.find(producto => producto.id === parseInt(itemId)))
-        )
-    }, [])
-    */
+   
+    
     useEffect(() => {
         const db = getFirestore();
         const q= doc(db,'data',itemId)

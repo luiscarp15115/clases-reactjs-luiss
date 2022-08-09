@@ -19,7 +19,7 @@ const CartProvider = ({children}) =>{
     const borrarCarrito = () => setCarrito([])
     const borrarProducto = (id) => setCarrito(carrito.filter(producto => producto.id != id))
     const repetidos = (id) => carrito.find(producto => producto.id === id)
-    const totalcart = carrito.reduce((totcart, product )=> totcart + product.cantidad * product.precio , 0) 
+    const totalcart = carrito.reduce((totcart, product )=> product.oferta ? (totcart + product.cantidad*parseInt(product.preciorebajado)) :(totcart + product.cantidad*product.precio)  , 0) 
     const contadorcart = carrito.reduce((cont, prod) => cont + prod.cantidad, 0 )
 
     return(
