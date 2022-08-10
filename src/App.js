@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import CartDetail from './components/CartDetail';
 import CartProvider from './store/CartContext';
 import Cart from './components/Cart';
-
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
@@ -22,6 +22,7 @@ function App() {
         <Route path='/Ofertas' element={<ItemListContainer />} ></Route>
         <Route path='/item/:itemId' element={<ItemDetailContainer />}></Route>
         <Route path='/cart' element={<Cart/>}></Route>
+        <Route path='/form' element={<Form/>}></Route>
       </Routes> 
       <Footer />
       </CartProvider>

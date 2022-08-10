@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css';
 import {useCartContext} from '../store/CartContext'
 import { Link } from 'react-router-dom';
 import CartDetail from './CartDetail';
 import {getFirestore, doc, getDoc, collection, addDoc} from 'firebase/firestore'
+import Form from './Form.js';
 const Cart = () => {
     const {carrito, borrarCarrito, totalcart} = useCartContext();
-    
+    const [finalCompra, newFinalCompra] = useState (false)
     const order = {
         buyer: {
             name:"Luis",
@@ -17,13 +18,6 @@ const Cart = () => {
         total:totalcart
     }
 
-    const orderButton = () => {
-        const db = getFirestore();
-        const q= collection(db,'order')
-        addDoc(q, order)
-            .then(({id}) => console.log(order))
-        borrarCarrito()
-    }
     if(carrito.length === 0 ) {
         return(
             <>
@@ -33,6 +27,9 @@ const Cart = () => {
         )
     }
     else{
+        const compraForm = () => {
+            newFinalCompra(true)
+        }
 return (
         <div className='cart'>
             <h1>Carrito</h1>
@@ -42,8 +39,11 @@ return (
             }
             </div>
             <p>Total: ${totalcart}</p>
-            <button onClick={orderButton}>Terminar compra</button>
+            <button onClick={compraForm}>Terminar compra</button>
             <button onClick={()=>borrarCarrito()}>Borrar Carrito</button>
+            {finalCompra &&
+                <Form/>
+            }
         </div>
         )
     }
